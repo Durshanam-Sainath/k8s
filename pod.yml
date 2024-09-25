@@ -1,0 +1,11 @@
+apiversion: v1
+kind: pod
+metadata:
+  name: httpd-pod
+  lables:
+  app: frontend
+spec:
+  containers:
+    - name: httpd
+      image: httpd
+      
