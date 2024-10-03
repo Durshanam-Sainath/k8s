@@ -1,7 +1,0 @@
-apiVersion: storage.k8s.io/v1
-kind: storageClass
-metadata:
-  name: standard
-provisioner: kubernetes.io/aws-ebs  # Replace with the provisioner for your storage solution
-parameters:
-  type: gp3  # specify parameters based on your storage solution
